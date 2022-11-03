@@ -1,0 +1,8 @@
+services:
+    nekstati.override_timezone.subscriber:
+        class: nekstati\override_timezone\event\subscriber
+        arguments:
+            - '@config'
+            - '@template'
+        tags:
+            - { name: event.listener }

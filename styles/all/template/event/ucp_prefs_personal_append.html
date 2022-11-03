@@ -1,0 +1,11 @@
+{% if OVERRIDE_USER_DATEFORMAT %}
+<script>
+	document.getElementById('dateoptions').closest('dl').remove();
+</script>
+{% endif %}
+
+{% if OVERRIDE_USER_TIMEZONE %}
+<script>
+	document.getElementById('timezone').closest('dl').remove();
+</script>
+{% endif %}

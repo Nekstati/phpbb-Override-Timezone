@@ -1,0 +1,26 @@
+{
+    "name": "nekstati/override_timezone",
+    "type": "phpbb-extension",
+    "description": "Override user’s timezone and/or dateformat with the default values set by admin.",
+    "homepage": "",
+    "version": "1.0.0",
+    "time": "2022-03-06",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Nekstati",
+            "email": "",
+            "homepage": "http://phpbbguru.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "extra": {
+        "display-name": "💡 Override user’s timezone and dateformat",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.2.8"
+        }
+    }
+}
